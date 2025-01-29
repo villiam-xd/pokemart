@@ -3,7 +3,7 @@ import carddata from './carddata'
 import './CardBrowse.css'
 
 export function CardBrowse() {
-  document.title = "Pokécenter - Browse Page"
+  document.title = "Pokémart - Browse Page"
   return <main>
     {carddata.map(card =>
 

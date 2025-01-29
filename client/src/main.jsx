@@ -21,7 +21,7 @@ createRoot(document.getElementById('root')).render(
 )
 
 function HomePage() {
-  document.title = "Pokécenter - Home Page"
+  document.title = "Pokémart - Home Page"
   return <main>
     <h1>Home Page</h1>
   </main>

@@ -16,7 +16,7 @@ function CardInfo() {
     return <h1>ERROR: No card found</h1>
   }
 
-  document.title = "Pokécenter - " + card.name + " " + card.id;
+  document.title = "Pokémart - " + card.name + " " + card.id;
   return <div>
     <img src={card.images.large} />
     <h1>{card.name}</h1>
