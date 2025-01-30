@@ -1,6 +1,10 @@
 import { NavLink, Link, useParams } from 'react-router'
-import carddata from './carddata'
 import './CardPage.css'
+
+const carddata = [{"id": "base1-1", "name": "Alakazam", "images": "https://images.pokemontcg.io/base1/1.png"},
+  {"id": "base1-2", "name": "Blastoise", "images": "https://images.pokemontcg.io/base1/2.png"},
+  {"id": "base1-3", "name": "Chansey", "images": "https://images.pokemontcg.io/base1/3.png"}
+ ] ;
 
 export function CardPage() {
   return <main>
@@ -18,7 +22,7 @@ function CardInfo() {
 
   document.title = "Pokémart - " + card.name + " " + card.id;
   return <div>
-    <img src={card.images.large} />
+    <img src={card.images} />
     <h1>{card.name}</h1>
   </div>
 }

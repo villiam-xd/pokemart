@@ -13,8 +13,8 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route index element={<HomePage />} />
-        <Route path="cardpage/:cardId" element={<CardPage />} />
-        <Route path="cardbrowse" element={<CardBrowse />} />
+        <Route path="/cardpage/:cardId" element={<CardPage />} />
+        <Route path="/cardbrowse" element={<CardBrowse />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

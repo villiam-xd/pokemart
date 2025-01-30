@@ -1,4 +1,4 @@
-const carddata = [
+[
   {
     "id": "base1-1",
     "name": "Alakazam",
@@ -4804,5 +4804,3 @@ const carddata = [
     }
   }
 ]
-
-export default carddata;
