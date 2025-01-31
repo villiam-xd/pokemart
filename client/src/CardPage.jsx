@@ -1,10 +1,8 @@
+import {useState, useEffect, use} from 'react'
 import { NavLink, Link, useParams } from 'react-router'
+import { GetCardData } from './CardUtilities'
 import './CardPage.css'
 
-const carddata = [{"id": "base1-1", "name": "Alakazam", "images": "https://images.pokemontcg.io/base1/1.png"},
-  {"id": "base1-2", "name": "Blastoise", "images": "https://images.pokemontcg.io/base1/2.png"},
-  {"id": "base1-3", "name": "Chansey", "images": "https://images.pokemontcg.io/base1/3.png"}
- ] ;
 
 export function CardPage() {
   return <main>
@@ -14,7 +12,7 @@ export function CardPage() {
 
 function CardInfo() {
   const { cardId } = useParams();
-  const card = carddata.find(c => c.id == cardId);
+  const card = GetCardData().find(c => c.id == cardId);
 
   if (!card) {
     return <h1>ERROR: No card found</h1>
@@ -22,7 +20,7 @@ function CardInfo() {
 
   document.title = "Pokémart - " + card.name + " " + card.id;
   return <div>
-    <img src={card.images} />
+    <img src={card.images.small} />
     <h1>{card.name}</h1>
   </div>
 }

@@ -2,6 +2,7 @@
   {
     "id": "base1-1",
     "name": "Alakazam",
+    "price": 26.43,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 2"
@@ -62,6 +63,7 @@
   {
     "id": "base1-2",
     "name": "Blastoise",
+    "price": 70.0,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 2"
@@ -122,6 +124,7 @@
   {
     "id": "base1-3",
     "name": "Chansey",
+    "price": 12.68,
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -192,6 +195,7 @@
   {
     "id": "base1-4",
     "name": "Charizard",
+    "price": 203.23,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 2"
@@ -259,6 +263,7 @@
   {
     "id": "base1-5",
     "name": "Clefairy",
+    "price": 14.84,
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -327,6 +332,7 @@
   {
     "id": "base1-6",
     "name": "Gyarados",
+    "price": 11.37,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 1"
@@ -398,6 +404,7 @@
   {
     "id": "base1-7",
     "name": "Hitmonchan",
+    "price": 7.26,
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -458,6 +465,7 @@
   {
     "id": "base1-8",
     "name": "Machamp",
+    "price": 9.25,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 2"
@@ -519,6 +527,7 @@
   {
     "id": "base1-9",
     "name": "Magneton",
+    "price": 12.64,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 1"
@@ -585,6 +594,7 @@
   {
     "id": "base1-10",
     "name": "Mewtwo",
+    "price": 15.31,
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -646,6 +656,7 @@
   {
     "id": "base1-11",
     "name": "Nidoking",
+    "price": 14.75,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 2"
@@ -710,6 +721,7 @@
   {
     "id": "base1-12",
     "name": "Ninetales",
+    "price": 10.0,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 1"
@@ -772,6 +784,7 @@
   {
     "id": "base1-13",
     "name": "Poliwrath",
+    "price": 12.63,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 2"
@@ -837,6 +850,7 @@
   {
     "id": "base1-14",
     "name": "Raichu",
+    "price": 19.22,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 1"
@@ -900,6 +914,7 @@
   {
     "id": "base1-15",
     "name": "Venusaur",
+    "price": 46.26,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 2"
@@ -960,6 +975,7 @@
   {
     "id": "base1-16",
     "name": "Zapdos",
+    "price": 21.50,
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -1025,6 +1041,7 @@
   {
     "id": "base1-17",
     "name": "Beedrill",
+    "price": 3.89,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 2"
@@ -1089,6 +1106,7 @@
   {
     "id": "base1-18",
     "name": "Dragonair",
+    "price": 7.99,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 1"
@@ -1156,6 +1174,7 @@
   {
     "id": "base1-19",
     "name": "Dugtrio",
+    "price": 4.0,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 1"
@@ -1226,6 +1245,7 @@
   {
     "id": "base1-20",
     "name": "Electabuzz",
+    "price": 3.69,
     "supertype": "Pokémon",
     "subtypes": [
       "Basic"
@@ -1288,6 +1308,7 @@
   {
     "id": "base1-21",
     "name": "Electrode",
+    "price": 5.0,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 1"
@@ -1346,6 +1367,7 @@
   {
     "id": "base1-22",
     "name": "Pidgeotto",
+    "price": 6.97,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 1"
@@ -1416,6 +1438,7 @@
   {
     "id": "base1-23",
     "name": "Arcanine",
+    "price": 1.84,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 1"
@@ -1481,6 +1504,7 @@
   {
     "id": "base1-24",
     "name": "Charmeleon",
+    "price": 2.94,
     "supertype": "Pokémon",
     "subtypes": [
       "Stage 1"

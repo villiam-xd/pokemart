@@ -2,6 +2,7 @@ public class Card
 {
     public string id { get; set; }
     public string name { get; set; }
+    public float? price { get; set; }
     public string supertype { get; set; }
     public string[] subtypes { get; set; }
     public string level { get; set; }
